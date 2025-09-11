@@ -20,7 +20,7 @@ const Navbar = async () => {
       <nav className="flex justify-between items-center">
 
         <Link href="/">
-          <Image src="/Group 5.svg" alt="my logo" width={143} height={30}>
+          <Image src="/group 5.svg" alt="my logo" width={143} height={30}>
 
           </Image>
         </Link>
@@ -33,7 +33,7 @@ const Navbar = async () => {
 
             (
 
-              <div className="flex gap-4 items-center">
+              <div className="flex gap-4 items-center justify-center">
 
                 <Link href="" >
                   <span>create</span>
@@ -43,7 +43,7 @@ const Navbar = async () => {
                   "use server"
                   await signOut({ redirectTo: "/" })
                 }}>
-                  <button type="submit">Logout</button>
+                  <button className="bg-transparent border-0 p-0 m-0 text-black hover:underline cursor-pointer" type="submit">Logout</button>
                 </form>
 
 
@@ -62,7 +62,7 @@ const Navbar = async () => {
                 "use server"
                 await signIn()
               }}>
-                <button type="submit">Login</button>
+                <button className="bg-transparent border-0 p-0 m-0 text-black hover:underline cursor-pointer" type="submit">Login</button>
               </form>
 
             )
