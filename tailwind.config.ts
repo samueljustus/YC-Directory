@@ -7,6 +7,9 @@ const config: Config = {
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    fontFamily: {
+      custom: ['worksans', 'sans-serif'],
+    },
     extend: {},
   },
   plugins: [],
